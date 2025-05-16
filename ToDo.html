@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" >
+        <title>To do list</title>
+        <link rel="stylesheet" href="/Projets/ToDo/ToDo.css">
+        <script src="/Projets/ToDo/ToDo.js" defer></script>
+        <link rel="shortcut icon" href="/Ressources/skipc.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <h1>To do : </h1>
+                <input type="text" placeholder="Nouvelle tache ?" onkeydown="search()"><button class="ok" onclick=newAction()>Ajouter Tache</button>
+                <p id="compteur"></p>
+                <nav>
+                    <button id="taskButton" onclick="selectTab(0)"></button>
+                    <button id="doneButton" onclick="selectTab(1)"></button>
+                </nav>
+        </header>
+        <main>
+            <div class="tasks" id="tasks"></div>
+            <div class="tasks" id="done"></div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
