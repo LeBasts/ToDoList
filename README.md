@@ -27,4 +27,4 @@ Ce projet m’a permis de :
 - CSS
 - JavaScript (Vanilla)
 
-## 🚀 Visible sur [antoinebastelica.fr](https://antoinebastelica.fr/Projets/Calculette/calc.html)
+## 🚀 Visible sur [antoinebastelica.fr](https://antoinebastelica.fr/Projets/ToDo/ToDo.html)
